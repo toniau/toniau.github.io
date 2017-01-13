@@ -58,11 +58,47 @@ html, body {
     left: 50%;
 }
 
+#sidebar {
+    display: block;
+    position: absolute;
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border-color: #333;
+    border-style: solid;
+    border-width: thin;
+    z-index: 111;
+}
+
+#sidebar h3 {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+#sidebar ul li, #sidebar ul li a{
+    padding-bottom: 35px;
+    text-decoration: none;
+    color: #333;
+}
+
+#sidebar ul li a:hover {
+    color: lightcoral;
+}
+
 .info-block {
     background-color: white;
     display: block;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 250px;
+    position: relative;
+    z-index: 85;
+}
+
+.info-head {
+    letter-spacing: 5px;
 }
 
 /**************** experimental ********/
