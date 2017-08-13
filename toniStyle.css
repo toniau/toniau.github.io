@@ -68,6 +68,7 @@ html, body {
     border-color: #333;
     border-style: solid;
     border-width: thin;
+    background-color: #ffffff;
     z-index: 111;
 }
 
@@ -80,7 +81,7 @@ html, body {
 #sidebar ul li, #sidebar ul li a{
     padding-bottom: 35px;
     text-decoration: none;
-    color: #333;
+    color: #333333;
 }
 
 #sidebar ul li a:hover {
@@ -88,9 +89,9 @@ html, body {
 }
 
 .info-block {
-    background-color: white;
+    background-color: #ffffff;
     display: block;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
     padding-left: 250px;
     position: relative;
@@ -101,84 +102,16 @@ html, body {
     letter-spacing: 5px;
 }
 
+.info-content {
+    text-align: center;
+    width: 500px;
+    padding-left: 500px;
+    line-height: 1.5em;
+}
+
 /**************** experimental ********/
 
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
-
-/************** old sidebar *******
-#sidebar{
-    height: 100%;
-    width: 320px;
-    position: fixed;
-    display: none;
-}
-
-#window {
-    top: 0 !important;
-    float: left;
-    width: 300px;
-    height: 300px;
-    position: fixed;
-}
-
-#navSign{
-    position: fixed;
-    float: left;
-    width: 300px;
-    padding-top: 350px;
-}
-
-td {
-    text-align: center;
-    padding: 15px;
-}
-
-td button a {
-    color: white;
-    text-decoration: none;
-}
-
-.buttonSign {
-    font-family: 'Raleway';
-    font-size: 1em;
-    color: white;
-    background: url("img/wood-sign.jpg") no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    background-color: antiquewhite;
-    border: none;
-    cursor: pointer;
-}
-
-#homeBtn {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-#aboutBtn {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-#expBtn {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-#contactBtn {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-*/
