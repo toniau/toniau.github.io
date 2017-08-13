@@ -109,6 +109,13 @@ html, body {
     line-height: 1.5em;
 }
 
+#resume {
+    color: lightcoral;
+    text-decoration-color: lightcoral;
+    font-weight: bold;
+    
+}
+
 /**************** experimental ********/
 
 .parallax-window {
